@@ -54,7 +54,6 @@ $(function(){
   }
 
   function update_socials(tt, tw, yt, vd){
-    console.log(vd);
     var twitch = "<iframe src='https://player.twitch.tv/?channel="+ tw +"&parent="+env+"'></iframe>";
     var twitter = "<a class='twitter-timeline' data-lang='es' data-theme='dark' href='https://twitter.com/"+ tt +"'></a><script async src='https://platform.twitter.com/widgets.js' charset='utf-8'></script>";
     var chat = "<iframe frameborder='0' scrolling='no' src='https://www.twitch.tv/embed/"+ tw +"/chat?darkpopout&parent="+env+"' width='100%' height=''></iframe>";
