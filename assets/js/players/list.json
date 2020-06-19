@@ -1,0 +1,291 @@
+{
+  "players":[
+    {
+      "username": "IsaacFreak",
+      "twitter": "IsaacFreak",
+      "twitch": "isaacfreaktwitch",
+      "edition": "white",
+      "medallas": "0"
+    },
+    {
+      "username": "PkAdry",
+      "twitter": "adridebolsillo",
+      "twitch": "adriandebolsillo",
+      "youtube": "UC-53smGtv3b7TO4M0vC-3gA",
+      "edition": "black",
+      "medallas": "0"
+    },
+    {
+      "username": "Esplayon",
+      "twitter": "Esplayon",
+      "twitch": "Esplayon",
+      "edition": "white",
+      "medallas": "0"
+    },
+    {
+      "username": "JellyMudkip",
+      "twitter": "JellyMudkip",
+      "twitch": "JellyMudkipp",
+      "edition": "black",
+      "medallas": "0"
+    },
+    {
+      "username": "MottaGame",
+      "twitter": "MottaGame",
+      "twitch": "MottaGame",
+      "edition": "white",
+      "medallas": "0"
+    },
+
+    {
+      "username": "iThaurox",
+      "twitter": "iThaurox",
+      "twitch": "iThaurox",
+      "youtube": "UCnJvFyUFywbNeNYIeeUkXpA",
+      "video": true,
+      "edition": "black",
+      "medallas": "0"
+    },
+    {
+      "username": "Failbor05",
+      "twitter": "Failbor05",
+      "twitch": "failbor21",
+      "youtube": "UCIvqlXSguX7Ekp2l-jZlv2A",
+      "video": true,
+      "edition": "white",
+      "medallas": "0"
+    },
+    {
+      "username": "PkBer",
+      "twitter": "pkberyt",
+      "twitch": "pkber",
+      "edition": "black",
+      "medallas": "0"
+    },
+    {
+      "username": "ChiviCoffee",
+      "twitter": "Chivicoffee",
+      "twitch": "Chivicoffee",
+      "edition": "white",
+      "medallas": "0"
+    },
+    {
+      "username": "BlueAtom",
+      "twitter": "BlueAtom_",
+      "twitch": "blueatom",
+      "edition": "black",
+      "medallas": "0"
+    },
+    {
+      "username": "PikaGolden",
+      "twitter": "pikagolden_",
+      "twitch": "pikagolden_",
+      "youtube": "UCNrZBZz789QbKSadoq9Jmhg",
+      "video": true,
+      "edition": "white",
+      "medallas": "0"
+    },
+    {
+      "username": "ErikaMaeve",
+      "twitter": "ErikaMaeve",
+      "twitch": "erikamaeve",
+      "edition": "black",
+      "medallas": "0"
+    },
+    {
+      "username": "ItsMOZA",
+      "twitter": "ItsMOZA11",
+      "twitch": "",
+      "youtube": "UC-y3jRHwAigi4uzuiiyO7bQ",
+      "video": true,
+      "edition": "white",
+      "medallas": "0"
+    },
+
+    {
+      "username": "AlejaKaiser",
+      "twitter": "AlejaKaiser",
+      "twitch": "AlejaKaiser",
+      "edition": "black",
+      "medallas": "0"
+    },
+    {
+      "username": "MixelGames",
+      "twitter": "MixelGames",
+      "twitch": "mixelgames4",
+      "edition": "white",
+      "medallas": "0"
+    },
+    {
+      "username": "MrDrakon",
+      "twitter": "MrDrakon_",
+      "twitch": "mrdrakonyt",
+      "edition": "black",
+      "medallas": "0"
+    },
+    {
+      "username": "Bleik",
+      "twitter": "capitanpokemon",
+      "twitch": "bleik____",
+      "edition": "white",
+      "medallas": "0"
+    },
+    {
+      "username": "Daxter",
+      "twitter": "Daxter1902",
+      "twitch": "Daxter02",
+      "edition": "black",
+      "medallas": "0"
+    },
+    {
+      "username": "EcoGamer",
+      "twitter": "EcoGamer_",
+      "twitch": "ecogamerlive",
+      "youtube": "UCDHaHS-QffhdX850DBiMLSQ",
+      "video": true,
+      "edition": "white",
+      "medallas": "0"
+    },
+    {
+      "username": "Nova",
+      "twitter": "Nova_New_",
+      "twitch": "",
+      "youtube": "UClG1LymsmiXosWw1RV7q14w",
+      "video": true,
+      "edition": "black",
+      "medallas": "0"
+    },
+    {
+      "username": "KiritoGames",
+      "twitter": "KiritoGames013",
+      "twitch": "soykirito13",
+      "edition": "white",
+      "medallas": "0"
+    },
+    {
+      "username": "Dendevid17",
+      "twitter": "Dendevid17",
+      "twitch": "dendevid17",
+      "edition": "black",
+      "medallas": "0"
+    },
+    {
+      "username": "AlekZ",
+      "twitter": "AlekZ_YT",
+      "twitch": "",
+      "youtube": "UCLp73nnilVJ1BR_LVkwM-fQ",
+      "video": true,
+      "edition": "white",
+      "medallas": "0"
+    },
+    {
+      "username": "Tiasmile",
+      "twitter": "pokezeldero",
+      "twitch": "tiasmile",
+      "youtube": "UC2hs85tJdOer0rmYc-ZUYtw",
+      "video": true,
+      "edition": "black",
+      "medallas": "0"
+    },
+    {
+      "username": "Zebstray",
+      "twitter": "GreninjaLove",
+      "twitch": "",
+      "youtube": "UCIphpxoCPC65qTISfNQmy8Q",
+      "video": true,
+      "edition": "white",
+      "medallas": "0"
+    },
+    {
+      "username": "AsceFdeZ",
+      "twitter": "suarezstein",
+      "twitch": "",
+      "youtube": "UCBMVf_RCWojIdCK-ZT5LERA",
+      "video": true,
+      "edition": "black",
+      "medallas": "0"
+    },
+    {
+      "username": "Avocadox",
+      "twitter": "mrsavocadox",
+      "twitch": "",
+      "youtube": "UCaSCvUS-a3OxXI-hgm5qKCQ",
+      "video": true,
+      "edition": "white",
+      "medallas": "0"
+    },
+
+    {
+      "username": "FubuDex09",
+      "twitter": "FubuDexYT",
+      "twitch": "fubudex09",
+      "youtube": "UCVZUjVBtL0x6ea_7wFnKobA",
+      "video": true,
+      "edition": "black",
+      "medallas": "0"
+    },
+    {
+      "username": "Angeloti12",
+      "twitter": "angeloti12uwu",
+      "twitch": "",
+      "youtube": "UCrjQwkz5wHxz3mP_6ZaBD-A",
+      "video": true,
+      "edition": "white",
+      "medallas": "0"
+    },
+    {
+      "username": "SaiyanEx",
+      "twitter": "SaiyanEx",
+      "twitch": "saiyanexplosivo",
+      "edition": "black",
+      "medallas": "0"
+    },
+    {
+      "username": "Piruminati",
+      "twitter": "Piru_YT",
+      "twitch": "",
+      "youtube": "UCfGFPqpz80e6NoZLpxOxIfw",
+      "video": true,
+      "edition": "white",
+      "medallas": "0"
+    },
+    {
+      "username": "Semfid0r",
+      "twitter": "semfidor",
+      "twitch": "semfid0r",
+      "edition": "black",
+      "medallas": "0"
+    },
+    {
+      "username": "RoVinX10",
+      "twitter": "RoVinX10",
+      "twitch": "",
+      "youtube": "UCa51VHHAySDQ1Lcd-XwW5Ag",
+      "video": true,
+      "edition": "white",
+      "medallas": "0"
+    },
+    {
+      "username": "Ruko",
+      "twitter": "Ruko_gamer",
+      "twitch": "",
+      "youtube": "UCWj8l0Ulag8jTWYrD_1oeZQ",
+      "edition": "black",
+      "medallas": "0"
+    },
+    {
+      "username": "Facent5",
+      "twitter": "Facent5_",
+      "twitch": "Facent5",
+      "edition": "white",
+      "medallas": "0"
+    },
+    {
+      "username": "RRPSaihara",
+      "twitter": "Rrpsaihara",
+      "twitch": "rrpwaze",
+      "edition": "black",
+      "medallas": "0"
+    }
+  ]
+}

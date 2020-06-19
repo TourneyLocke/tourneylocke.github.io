@@ -1,0 +1,299 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+}
+a, a:hover{
+  text-decoration: none;
+  color: inherit;
+}
+body{
+  background-color: #292f33;
+  font-size: 16px;
+}
+body.locked{
+  overflow: hidden;
+}
+.nopadding, .nopadding-mobile{
+  padding: 0 !important;
+  margin: 0 !important;
+}
+header{
+  background-color: rgba(255, 255, 255, .4);
+  background-color: #e34c4e;
+}
+header ul li.header-logo img{
+  display: block;
+  margin: auto;
+  width: 100%;
+  padding: 20px 0;
+}
+header ul{
+  display: flex;
+  margin: auto;
+  align-items: stretch;
+  list-style: none;
+  width: 600px;
+}
+header ul li.header-logo{
+  width: 500px;
+}
+header ul li.pmenu{
+  width: 100%;
+  list-style: none;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+  text-align: center;
+}
+header ul li.pmenu a{
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  display: flex;
+}
+header ul li.pmenu a span{
+  margin: auto;
+  text-align: center;
+  padding: 0 20px;
+}
+header ul li.pmenu:hover{
+  background-color: rgba(255, 255, 255, .2);
+}
+.player{
+  padding: 40px 20px;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  overflow: hidden;
+
+  background-size: cover;
+  background-position: center;
+}
+.player:hover .player-info{
+  transform: scale(1.1);
+}
+.player-platform{
+  width: 20px;
+  border-radius: 50%;
+  box-shadow: 0 0 3px rgba(0, 0, 0, .5);
+  vertical-align: sub;
+  margin-right: 5px;
+  border: 1px solid white;
+}
+.player-edition img{
+  position: absolute;
+  top: 3px;
+  left: 3px;
+}
+.player-edition:before{
+  content: "";
+  display: block;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: -60px;
+  left: -47px;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, .4);
+  border-radius: 30px;
+}
+.player-edition.edition-white:before{
+  background-color: rgba(255, 255, 255, .5);
+}
+.player-edition.edition-black:before{
+  background-color: rgba(0, 0, 0, .5);
+}
+.player-info{
+  transition: .3s all;
+}
+.player-icon{
+  height: 70px;
+  width: 70px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  margin: auto;
+  margin-bottom: 10px;
+  box-shadow: 0 0 3px #000;
+}
+.player-name{
+  /* margin-bottom: 10px; */
+}
+.player-name p{
+  margin: 0;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  text-shadow: 0 0 3px #000;
+}
+.social-popup{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #292f33;
+  padding-top: 40px;
+}
+.social-popup .closebtn{
+  position: absolute;
+  top: 0;
+  right: 10px;
+  color: #fff;
+  text-align: center;
+  padding-top: 7px;
+  font-weight: bold;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.social-popup .twitter-container{
+  height: 100vh;
+  width: 97%;
+  overflow-y: scroll;
+}
+.social-popup .twitter-container iframe{
+  width: 100% !important;
+}
+.social-popup .twitch-container iframe{
+  height: calc(100vh - 40px);
+  width: 100%;
+}
+.social-popup .twitch-chat-container{
+  height: 100vh;
+  width: 97%;
+  /* margin: auto; */
+  overflow-y: scroll;
+}
+.social-popup .twitch-chat-container iframe{
+  width: 100%;
+  height: calc(100vh - 80px);
+  margin: auto;
+}
+.tabs{
+  display: flex;
+}
+.tabs .tab{
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+  background-color: rgba(172, 172, 172, 0.3);
+  padding: 10px 0;
+  font-weight: bold;
+}
+.tabs .active-tab{
+  background-color: #292f33;
+  text-decoration: underline;
+}
+.loading-screen{
+  position: fixed;
+  display: flex;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #e34c4e;
+  overflow: hidden;
+  transition: .5s all;
+}
+.loading-screen img{
+  display: block;
+  width: 40%;
+  margin: auto;
+  transition: 1s all;
+  transform: translateY(200px);
+}
+.player-medals {
+  display: flex;
+  display: none;
+  flex-wrap: wrap;
+  margin-top: 15px;
+  padding: 5px 0;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, .4)
+}
+.player-medals img {
+  width: 25%;
+  filter: grayscale(1);
+  transform: scale(1.4);
+  opacity: .6;
+  height: 25%;
+}
+.player-medals img.active {
+  width: 25%;
+  filter: grayscale(0);
+  opacity: 1;
+}
+.player.player-banned {
+  filter: grayscale(1);
+  opacity: .7;
+  cursor: not-allowed;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.player.player-banned:hover .player-info{
+  transform: none;
+}
+.player.player-banned .player-medals img{
+  filter: none;
+}
+/* media query */
+@media screen and (max-width: 981px){
+  .nopadding-mobile{
+    padding: inherit !important;
+  }
+  header img.logo{
+    width: 150px;
+    padding: 10px 0;
+  }
+  .social-popup .twitch-chat-container{
+    width: 95%;
+    margin: auto;
+    height: calc(70vh - 80px);
+  }
+  .social-popup .twitch-chat-container iframe{
+    height: calc(70vh - 80px);
+  }
+  .social-popup .twitch-chat-container.chrome iframe{
+    height: calc(63vh - 80px);
+  }
+  .social-popup .twitter-container{
+    height: 100vh;
+    width: 95%;
+    margin: auto;
+    overflow-y: scroll;
+  }
+  .social-popup .twitch-container iframe{
+    height: 30vh;
+    width: 100%;
+  }
+  .social-popup .twitch-container{
+    display: flex;
+  }
+  .loading-screen img{
+    width: 100%;
+  }
+  .player:hover .player-info{
+    transform: none;
+  }
+  header ul{
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  header ul li.header-logo{
+    width: 100%;
+  }
+  header ul li.header-logo img{
+    width: 50%;
+  }
+  header ul li.pmenu {
+    width: 50%;
+    padding: 10px 0;
+  }
+}
