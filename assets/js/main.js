@@ -14,7 +14,7 @@ $(function(){
     for (var i = 0; i < data.players.length; i++) {
       create_player(data.players[i], i+1);
     }
-    $('.player').not('.player-banned').click(function(){
+    $('.player').click(function(){
       var twitter = $(this).data('twitter');
       var twitch = $(this).data('twitch');
       var youtube = $(this).data('youtube');
