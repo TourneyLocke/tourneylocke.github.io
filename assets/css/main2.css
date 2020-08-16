@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+}
+body{
+  background-color: #292f33;
+  background-color: #e34c4e;
+  font-size: 16px;
+}
+.centered{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+h4{
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+}
+.socials{
+  text-align: center;
+  color: #fff;
+}
+.socials a{
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  vertical-align: middle;
+}
+.socials img{
+  width: 30px;
+  border-radius: 50%;
+  vertical-align: text-top;
+}

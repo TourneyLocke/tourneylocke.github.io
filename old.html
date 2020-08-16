@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Pokémon TourneyLocke - Participantes e información</title>
+    <meta name='viewport' content='width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1'/>
+    <!-- css import -->
+    <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <!-- icon -->
+    <link rel="shortcut icon" href="https://pbs.twimg.com/profile_images/1258946539982110721/4H6a3L0__400x400.jpg">
+
+    <!-- twitter card -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@HoldersTV_">
+    <meta name="twitter:creator" content="@HoldersTV_">
+    <meta name="twitter:image" content="https://tourneylocke.github.io/twitter.png"/>
+    <meta property="og:url" content="https://tourneylocke.github.io/" />
+    <meta property="og:title" content="Pokémon TourneyLocke" />
+    <meta property="og:description" content="¡Bienvenidos a Pokémon TourneyLocke! El torneo en el que solo los que lleguen a la cima, podrán enfrentarse y pelear por ser el número 1." />
+  </head>
+  <body class="locked">
+    <main>
+      <header>
+        <ul class="d-flex d-lg-none">
+          <li class="header-logo">
+            <img class="logo" src="assets/images/logo.png">
+          </li>
+          <li class="pmenu">
+            <a href="https://www.youtube.com/watch?v=th_-6HsV5ok" target="_blank">
+              <span>¿Qué es?</span>
+            </a>
+          </li>
+          <li class="pmenu">
+            <a href="https://docs.google.com/document/d/1B-JneiXo_wOOR5K6XEEuCLHx50q_9TQZNi1GHj8Kd7g/edit" target="_blank">
+              <span>Normas</span>
+            </a>
+          </li>
+        </ul>
+        <ul class="d-none d-lg-flex">
+          <li class="pmenu">
+            <a href="https://www.youtube.com/watch?v=th_-6HsV5ok" target="_blank">
+              <span>¿Qué es?</span>
+            </a>
+          </li>
+          <li class="header-logo">
+            <img class="logo" src="assets/images/logo.png">
+          </li>
+          <li class="pmenu">
+            <a href="https://docs.google.com/document/d/1B-JneiXo_wOOR5K6XEEuCLHx50q_9TQZNi1GHj8Kd7g/edit" target="_blank">
+              <span>Normas</span>
+            </a>
+          </li>
+        </ul>
+      </header>
+      <div class="container-fluid">
+        <div class="row" id='load_players'></div>
+        <div class="social-popup d-none">
+          <span class="closebtn">Cerrar</span>
+          <div class="container-fluid nopadding">
+            <div class="row">
+              <div class="col-12 col-lg-9">
+                <div class="twitch-container"></div>
+              </div>
+              <div class="col-12 col-lg-3 nopadding-mobile">
+                <div class="tabs">
+                  <span class="tab active-tab" data-tab='chat'>Chat</span>
+                  <span class="tab" data-tab='twitter'>Twitter</span>
+                </div>
+                <div id='chat-tab' class="twitch-chat-container d-none"></div>
+                <div id='twitter-tab' class="twitter-container"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="loading-screen">
+        <img src="assets/images/logo.png">
+      </div>
+    </main>
+
+    <!-- js import -->
+    <script src="assets/js/vendor/jquery.js" charset="utf-8"></script>
+    <!-- <script src="assets/js/twitchapi.js" charset="utf-8"></script> -->
+    <script src="assets/js/main.js" charset="utf-8"></script>
+  </body>
+</html>
